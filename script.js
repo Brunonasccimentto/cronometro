@@ -36,7 +36,7 @@
 
     function time(){
 
-        if ((millisecond++) == 100) {
+        if ((millisecond+=1) == 100) {
         millisecond = 0;
         second++;
     } else if (second == 60) {
