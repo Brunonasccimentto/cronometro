@@ -1,0 +1,144 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../cronometro1/images/1df4cdb8f6f57eb073015a21557c5cbd.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+#stopwatch{
+
+    background-color: #ffffffbb;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+
+}
+
+#chrono{
+
+    
+    display: auto;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.timer{
+
+    font-size: 70px;
+    padding: 3px;
+    margin-top: 1000px;
+    font-family:cursive;
+    font-style: italic;
+}
+
+#click{
+
+    margin-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-left: -25px;
+    
+    
+}
+
+#start{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../cronometro1/images/start1.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-y: -5px ;
+    background-position-x: -2px;
+    border: none;
+    opacity: 0.8;
+    border-radius: 13px;
+    
+}
+
+#stop{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../cronometro1/images/pause2.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 98.5px;
+    border: none;
+    background-position-y:1px ;
+    background-position-x: -1px;
+    opacity: 0.8;
+    border-radius: 10px;
+    
+}
+
+#reset{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../cronometro1/images/download.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-y: -2px ;
+    background-position-x: -3px;
+    border: none;
+    opacity: 0.8;
+    border-radius: 12px;
+    
+}
+
+.buttons{
+    padding: 19.5px;
+    margin-left: 20px;
+    width: 95px;
+
+}
+
+#millisecond{
+    font-size: 26px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #stopwatch{
+
+        background-color: #ffffffbb;
+        display: block;
+        width: 75%;
+        
+        margin-top: 100px;
+        border: 2px solid black;
+        border-radius: 5px;
+    
+    }
+   .timer{
+       font-size: 42px;
+       text-align: center;
+
+   }
+   #chrono{
+
+    width: 100%;
+    display: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+    #millisecond{
+    font-size: 16px;
+}
+#click{
+    text-align: center;
+    padding: 50px;
+}
+
+}
