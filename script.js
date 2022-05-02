@@ -1,4 +1,3 @@
-    
     let hour = 00;
     let minute = 00;
     let second = 00;

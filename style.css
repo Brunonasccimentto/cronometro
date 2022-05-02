@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(../cronometro1/images/1df4cdb8f6f57eb073015a21557c5cbd.gif);
+    background-image: url(../cronometro/images/1df4cdb8f6f57eb073015a21557c5cbd.gif);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ body{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url(../cronometro1/images/start1.png);
+    background-image: url(../cronometro/images/start1.png);
     background-repeat: no-repeat;
     background-size: 100px;
     background-position-y: -5px ;
@@ -70,7 +70,7 @@ body{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url(../cronometro1/images/pause2.png);
+    background-image: url(../cronometro/images/pause2.png);
     background-repeat: no-repeat;
     background-size: 100px;
     width: 98.5px;
@@ -86,7 +86,7 @@ body{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url(../cronometro1/images/download.png);
+    background-image: url(../cronometro/images/download.png);
     background-repeat: no-repeat;
     background-size: 100px;
     background-position-y: -2px ;
